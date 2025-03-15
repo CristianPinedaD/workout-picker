@@ -26,6 +26,23 @@
     aspect-ratio: 1/1; 
 }
 
+.workoutDisplay {
+    border: solid 4px blue; 
+    box-sizing: border-box; 
+    margin-top: 10%; 
+    aspect-ratio: 1/1; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+}
+
+.workoutDisplay h1 {
+    text-align: center; 
+    box-sizing: border-box; 
+    border: solid 5px seagreen; 
+    background: green; 
+}
+
 .buttonContainer {
     box-sizing: border-box;
     padding: 0;
